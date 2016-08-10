@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+  /*height: 400px;*/
+  background-image: url(https://liveauctioneers-res.cloudinary.com/image/upload/c_scale,d_awaiting_image.png,f_auto,fl_lossy,w_auto/v2/img/2761/89252/45690842_1_x.jpg);
+  /*background-size: 100% 100%;*/
+  background-size:100%;
+  /*border: 1px */
+  /*background-position: center;*/
+  background-repeat: repeat;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color:#408000;
+  }
+
+
+h2 {
+    text-align:center;;
+    font-size: 40px;
+    font-family: 'Droid Serif', serif;
+    color:#6869A4  ;
+}

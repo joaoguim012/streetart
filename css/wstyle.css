@@ -1,0 +1,33 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-image: url("http://orig05.deviantart.net/b167/f/2015/160/7/e/mostly_cloudy_background_by_yuninaoki-d8woac9.jpg");
+  background-position: left, right;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#painting {
+  height: 300px;
+  width: 300px;
+  margin: auto;       /*centers the text */
+  margin-top: 50px;
+  vertical-align: middle;
+  line-height: 300px; /* should be same height as div */
+  background-color: Red;
+  color: white;
+  text-align: middle;
+  font-size: 48;
+  transform: scale(1.5, 1.5), skewX(20px) skewY(30px);
+}
+
+div: hover {
+  animation-name: rotation;
+  animation-duration: 4s;
+}
+
+@keyframes rotation {
+  0% {transition: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
